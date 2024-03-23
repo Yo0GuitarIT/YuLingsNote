@@ -1,8 +1,4 @@
 # Git 操作的相關工具
 
-```javascript
-let i = 0;
-console.log(123);
-
-// ths is commit
-```
+- [git-cz](https://github.com/streamich/git-cz)
+- [lazygit](https://github.com/jesseduffield/lazygit)
