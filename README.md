@@ -1,6 +1,14 @@
-# This is yo0's Note
+# Yu Ling's Note
 
-> 避免被軟體綁架
+---
+
+##### _拒絕被軟體綁架，自己的筆記自己維護_
+
+### 方向
 
 - Notion : 公開分享用
 - Hackmd : 多人協作用
+
+### 目錄
+
+**[技能樹](./skillTree/技能樹.md)**
