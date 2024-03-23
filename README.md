@@ -1,7 +1,6 @@
 # This is yo0's Note
 
-> Writing Somthing
+> 避免被軟體綁架
 
-- Main
-  - List
-    - amother
+- Notion : 公開分享用
+- Hackmd : 多人協作用
