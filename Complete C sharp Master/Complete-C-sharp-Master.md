@@ -17,3 +17,5 @@
 - [Collections](./Collections/Collections.md)
 
 - [Stacks and Queues](./Stacks%20and%20Queues/Stacks%20and%20Queues.md)
+
+- [Debugging](./Debugging/Debugging.md)
