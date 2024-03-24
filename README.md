@@ -17,4 +17,6 @@
 
 **[React 進化思維](./react進化思維/bookOutline.md)**
 
+**[Complete C# Master](./Complete%20C%20sharp%20Master/Complete-C-sharp-Master.md)**
+
 **[其他](./other/other.md)**
