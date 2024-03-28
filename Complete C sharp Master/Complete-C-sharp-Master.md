@@ -25,3 +25,5 @@
 - [Interface](./Interface/Interface.md)
 
 - [IEnumerable](./IEnumerable%20and%20IEnumerator/IEnumer%20OutLine.md)
+
+- [Polymorphism](./Polymorphism/Polymorphism.md)
