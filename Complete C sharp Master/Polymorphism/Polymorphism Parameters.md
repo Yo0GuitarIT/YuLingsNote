@@ -1,6 +1,7 @@
 # Polymorphism Parameters
 
 - Programs.cs
+
 ```csharp
 namespace PolymorphismC
 {
@@ -34,7 +35,9 @@ namespace PolymorphismC
     }
 }
 ```
+
 - Car.cs
+
 ```csharp
 namespace PolymorphismC
 {
@@ -61,7 +64,9 @@ namespace PolymorphismC
     }
 }
 ```
+
 - BMW.cs
+
 ```csharp
 namespace PolymorphismC
 {
@@ -90,6 +95,7 @@ namespace PolymorphismC
 ```
 
 - Audi.cs
+
 ```csharp
 namespace PolymorphismC
 {
@@ -117,8 +123,7 @@ namespace PolymorphismC
 }
 ```
 
-
-### virtual 和 override：
+## virtual 和 override
 
 > `virtual` 關鍵字用於基類方法，它聲明方法是可以被子類重寫的。
 > 當你在基類中聲明一個方法為 `virtual` 時，表示它是一個可重寫的方法。
@@ -126,11 +131,10 @@ namespace PolymorphismC
 
 在程式碼中，`Repair` 方法在 `Car` 基類中被聲明為 `virtual`，這意味著它可以被子類重寫。然後，在 `BMW` 和 `Audi` 類中，你使用了 `override` 關鍵字來重寫 `Repair` 方法，提供了這兩個子類自己的實現。
 
-### new：
+## new
 
 > `new` 關鍵字用於派生類中的方法或屬性，它表示該方法或屬性是新的，不是對基類的重寫。
 > 使用 `new` 關鍵字，你可以在派生類中引入一個新的成員，而不是對基類的成員進行重寫。
-
 
 在你的程式碼中，`ShowDetails` 方法在 `BMW` 和 `Audi` 類中被聲明為 `new`，這意味著它們引入了一個新的 `ShowDetails` 方法，並不是對基類中的 `ShowDetails` 方法進行重寫。因此，在處理 `BMW` 和 `Audi` 對象時，如果你使用 `Car` 類型的引用，將會調用基類中的 `ShowDetails` 方法，而不是派生類中的 `new` 方法。
 
@@ -145,6 +149,7 @@ namespace PolymorphismC
  Car carB = bmwM5;
  carB.ShowDetails();
 ```
+
 比較一下這兩個調用的差異：
 
 1. `bmwM5.ShowDetails();`：這裡我們直接調用了 `bmwM5` 物件的 `ShowDetails` 方法。由於 `bmwM5` 是一個 `BMW` 物件，因此將調用 `BMW` 類中的 `ShowDetails` 方法。這個方法是使用 `new` 關鍵字在 `BMW` 類中重新定義的，因此將顯示 `BMW` 物件的詳細信息。

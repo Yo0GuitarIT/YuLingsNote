@@ -1,7 +1,6 @@
 # Complete C# Master
 
 - [DataTypes And Variables](./DataTypes%20And%20Variables/DataTypes%20And%20Variables.md)
-  
 - [Functions, Methods And How To Save Time](./Functions,%20Methods%20And%20How%20To%20Save%20Time/Functions,%20Methods%20And%20How%20To%20Save%20Time.md)
 
 - [Make Decisions](./Make%20Decisions/Make%20Decisions.md)
@@ -27,3 +26,4 @@
 - [IEnumerable](./IEnumerable%20and%20IEnumerator/IEnumer%20OutLine.md)
 
 - [Polymorphism](./Polymorphism/Polymorphism.md)
+
